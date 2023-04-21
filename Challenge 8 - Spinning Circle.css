@@ -1,0 +1,25 @@
+@keyframes spinner {
+    0% {
+        transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+
+    100% {
+        transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+}
+
+.spin::before {
+    animation: 18s linear infinite spinner;
+    border: solid 50px #EDFEED;
+    border-bottom-color: #0D00C7;
+    border-radius: 50%;
+    content: "";
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 48.5%;
+    right: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}

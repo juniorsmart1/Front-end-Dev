@@ -1,0 +1,491 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.padding80 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+
+/*header*/
+
+.header {
+    background-color: black;
+    font-size: 16px;
+
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 10px;
+
+}
+
+p>a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/*Search Form Part */
+.Searchform-section {
+    background-image:
+        url("https://a0.muscache.com/im/pictures/cf39f4c4-e860-43d4-85be-deddd7b2da90.jpg?im_w=1440");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 725px;
+}
+
+/* Search Form - Logo */
+
+#Logoheader {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#Logoheader>div {
+    flex: auto;
+    width: 37%;
+}
+
+
+.Logolink {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+/* Search Form - Middle Links */
+#headerlink {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+#headerlink>a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    justify-items: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.text-end {
+    height: 54px;
+    text-align: end;
+}
+
+
+a>span {
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+#nav_button {
+    position: relative;
+    padding: 5px;
+    border-radius: 110px;
+    width: 77px;
+    border: none;
+    top: 5px;
+
+}
+
+#Host {
+    font-size: 16px;
+    margin-bottom: 12px;
+
+}
+
+/*Seach Box */
+
+#Profile-Icon {
+    background-color: white;
+    border-radius: 25px;
+    width: 77px;
+    height: 42px;
+    border: none;
+}
+
+.search_input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 110px;
+    width: 860px;
+    height: 66px;
+    margin: auto;
+
+}
+
+.search_input>:nth-child(1) {
+    width: 18rem;
+}
+
+
+.search_input>div * {
+    width: 70%;
+    margin: auto;
+    border: none;
+    text-align: left;
+
+}
+
+.search_input>div {
+    border-right: solid 1px rgb(128, 128, 128);
+}
+
+
+.search_input>:nth-child(4) {
+    border-right: 0px;
+}
+
+
+.search_input>:nth-child(5) {
+    width: 4.5rem;
+    border: none;
+    place-items: end;
+}
+
+
+.search_button {
+    background-color: #fa215b;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.search_input div>a * {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search_input>div:hover {
+    padding: 10px 0;
+    background-color: #e7e7e7;
+    border-radius: 110px;
+    border-right: 0px;
+}
+
+
+#Plan-trip {
+    display: flex;
+    flex-direction: column;
+    height: 625px;
+    justify-content: center;
+}
+
+#Plan-trip>span {
+    width: 400px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#Plan-trip>button {
+    width: 155px;
+    height: 32px;
+    margin-top: 16px;
+    border-radius: 12px;
+    border: hidden;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+/*Destination Highlight */
+.Nearby-Destination {
+    margin: 50px 0px 50px 0px;
+    padding: 0px 80px;
+}
+
+
+
+.Nearby-Destination li {
+    display: flex;
+    list-style: none;
+    padding-right: 12px;
+    text-align: start;
+    padding-bottom: 12px;
+}
+
+.Nearby-Destination img {
+    width: 70px;
+    border-radius: 10px;
+}
+
+#Nearby-ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Nearby-ul>* {
+    width: 25%;
+    color: black;
+}
+
+
+li>span {
+    place-self: center;
+    margin-left: 12px;
+}
+
+span>b,
+span>span {
+    display: block;
+}
+
+
+/*Accommodation Section */
+
+#Accom-Container {
+    padding: 0px 80px;
+    margin: 50px 0px
+}
+
+.Accommodations-section {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.Accommodations-Flex {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+}
+
+.Accommodations-Flex a:nth-child(1) {
+    padding: 0px 10px 0px 0px;
+    width: 25%;
+}
+
+.Accommodations-Flex a:nth-child(2),
+.Accommodations-Flex a:nth-child(3) {
+    padding: 0px 10px 10px 0px;
+    width: 25%;
+}
+
+.Accommodations-Flex a:nth-child(4) {
+    padding: 0px 10px 10px 0px;
+    width: 25%;
+}
+
+.Accommodations-Flex img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Accommodations-Flex a {
+    color: black;
+}
+
+
+/*Unique Experiences and Activities*/
+
+.Unique-section {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Unique-section>div,
+.Unique-section a {
+    text-decoration: none;
+    color: white;
+    padding-right: 13px;
+}
+
+
+.Unique-section>div:nth-child(1) {
+    font-size: 30px;
+}
+
+.Unique-section>div:nth-child(2) {
+    font-size: 15px;
+}
+
+.UniqueEx {
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+
+}
+
+.Unique-section a {
+    width: 33.33%;
+}
+
+
+.UniqueEx img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/*Hostzone*/
+.Hostzone {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+}
+
+.Hostzone>div:first-child {
+    font-size: 32px;
+}
+
+.Hostzone-Container {
+    padding: 0px;
+    display: flex;
+}
+
+.Hostzone-Container a {
+    color: black;
+    text-decoration: none;
+    width: 33.33%;
+    padding-right: 15px;
+}
+
+.Hostzone-Container li {
+    list-style-type: none;
+}
+
+.Hostzone-Container img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+
+/*Link Section*/
+.Links-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(247, 247, 247);
+}
+
+.Links-container {
+    display: flex;
+}
+
+.Links-container>div {
+    width: 25%;
+    font-size: 13px;
+}
+
+
+.Links-container ul {
+    padding-left: 0px;
+    margin-top: 12px
+}
+
+.Links-container li {
+    list-style-type: none;
+    padding-bottom: 12px;
+}
+
+.Links-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.Links-container a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/*Footer*/
+
+
+.Footer {
+    background-color: rgb(247, 247, 247);
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.bcc {
+    box-sizing: border-box;
+    border-top: solid #e7e7e7 1px;
+}
+
+
+
+.Left-box {
+    width: 50%;
+
+}
+
+.Left-box>a {
+    color: black;
+}
+
+.Left-box>a:hover {
+    text-decoration: underline;
+}
+
+#footerp {
+    margin-bottom: 2px;
+}
+
+.Middle-box {
+    margin-top: 14px;
+    width: 40%;
+    text-align: center;
+}
+
+.Middle-box span {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Last-box {
+    margin-top: 14px;
+    width: 10%;
+}
+
+.Last-box img {
+    width: 16px;
+    height: 16px;
+}

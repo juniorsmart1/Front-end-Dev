@@ -1,0 +1,20 @@
+/*1278 x 897 */
+
+body {}
+
+
+.card-group {
+    max-width: 1278px;
+    max-height: 897px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    column-gap: 20px;
+    place-content: center;
+    margin-left: 50px;
+}
+
+.card-body {
+    border: solid 1px grey;
+
+}
