@@ -1,0 +1,195 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+    margin: 5px
+}
+
+.topnav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    overflow: hidden;
+    z-index: 1000;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.topnav h3:hover {
+    color: gold;
+    text-decoration: solid;
+}
+
+.head-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-left>span {
+    margin-left: 1rem;
+}
+
+.topnav img {
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+.head-right {
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+}
+
+.head-right>a {
+    text-decoration: none;
+    color: black;
+}
+
+.head-right>a:hover {
+    color: gold;
+}
+
+/*Main*/
+
+.center img {
+    border-radius: 50%;
+    height: 240px;
+    width: 240px;
+    border: 3px white solid;
+    margin: auto;
+}
+
+
+.center img:hover {
+    box-shadow: goldenrod 0px 22px 70px 40px;
+    margin: auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(45deg);
+    }
+
+    75% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.Introductionsect {
+    background: linear-gradient(#e66465, #9198e5);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+
+/*Center area*/
+
+
+
+.Introductionsect button {
+    background-color: gold;
+    padding: 20px 60px;
+    border-radius: 5px;
+    font-weight: 800;
+    border-width: 0px;
+    box-shadow: grey 0px 5px 15px 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+/*Center Text*/
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-hprimary {
+    font-size: 4rem;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-family: helvetica;
+}
+
+.text-primary {
+    font-size: 1.25rem;
+    font-family: helvetica;
+}
+
+#project-button:hover {
+    background-color: rgb(236, 176, 13);
+    box-shadow: #e66465 40px;
+
+}
+
+
+/*Expertise Container */
+
+#expertise {
+    margin-top: 17.5%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.Expertise-container {
+    background-color: rgb(242, 183, 16);
+    color: whitesmoke;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 250px 200px;
+    grid-row: 2;
+
+}
+
+/*Skillset */
+.skillset img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+
+.skillset-container {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.skillseticon {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skillseticon>* {
+    width: 12.5%
+}
